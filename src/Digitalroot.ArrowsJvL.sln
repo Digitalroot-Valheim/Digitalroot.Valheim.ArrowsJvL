@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12120.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E64D67E6-C2B6-471C-990D-2E9A91427B64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\nuget.autoupdate.yml = ..\.github\workflows\nuget.autoupdate.yml
+		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{28344659-BF34-4411-9C48-A3D5C9AFA98E}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\README.md = ..\docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ico", "ico", "{C66A8E3B-31DB-4296-9DF3-78F55E2580E5}"
+	ProjectSection(SolutionItems) = preProject
+		ico\1301-1623549676-449883705.png = ico\1301-1623549676-449883705.png
+		ico\icon.png = ico\icon.png
+		ico\_0e0249dc-ce54-4198-b90c-7041b54328d9.jpg = ico\_0e0249dc-ce54-4198-b90c-7041b54328d9.jpg
+		ico\_20b1ae30-fc93-4e2e-a202-ba3dd9d44724.jpg = ico\_20b1ae30-fc93-4e2e-a202-ba3dd9d44724.jpg
+		ico\_c3e24a7c-80b4-4183-8367-ff7d306ceab1.jpg = ico\_c3e24a7c-80b4-4183-8367-ff7d306ceab1.jpg
+		ico\_d2862d54-377c-4f33-87c0-bc709053b8f0.jpg = ico\_d2862d54-377c-4f33-87c0-bc709053b8f0.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.ArrowsJvL", "Digitalroot.ArrowsJvL\Digitalroot.ArrowsJvL.csproj", "{CDCF8E26-1174-A5EB-1F9A-0D2288A3B786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDCF8E26-1174-A5EB-1F9A-0D2288A3B786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCF8E26-1174-A5EB-1F9A-0D2288A3B786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCF8E26-1174-A5EB-1F9A-0D2288A3B786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCF8E26-1174-A5EB-1F9A-0D2288A3B786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E64D67E6-C2B6-471C-990D-2E9A91427B64} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
+		{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2} = {E64D67E6-C2B6-471C-990D-2E9A91427B64}
+		{28344659-BF34-4411-9C48-A3D5C9AFA98E} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
+		{C66A8E3B-31DB-4296-9DF3-78F55E2580E5} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46DD4389-95C4-4F57-BB16-2A9A816F46B9}
+	EndGlobalSection
+EndGlobal

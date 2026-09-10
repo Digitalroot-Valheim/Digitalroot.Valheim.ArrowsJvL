@@ -1,0 +1,31 @@
+{
+  "recipes": [
+    {
+      "item": "Ato_Sword",
+      "name": "Ato_Sword",
+      "amount": 1,
+      "craftingStation": "piece_forge",
+      "tokenName": "$item_sword_ato",
+      "tokenValue": "Ato's Sword",
+      "tokenDescription": "$item_sword_ato_description",
+      "tokenDescriptionValue": "A Meme Machine.",
+      "minStationLevel": 1,
+      "enabled": true,
+      "repairStation": "",
+      "resources": [
+        {
+          "item": "Silver",
+          "amount": 20
+        },
+        {
+          "item": "BlackMetal",
+          "amount": 20
+        },
+        {
+          "item": "FineWood",
+          "amount": 4
+        }
+      ]
+    }
+  ]
+}
