@@ -1,7 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
-using Digitalroot.Valheim.Common;
-using Digitalroot.Valheim.Common.Names.Vanilla;
+using Digitalroot.Modding.Framework.Logging;
+using Digitalroot.Modding.Framework.Names.Vanilla;
 using JetBrains.Annotations;
 using Jotunn.Configs;
 using Jotunn.Entities;
